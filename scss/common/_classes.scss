@@ -1,0 +1,83 @@
+.menu_text {
+    @include textStyles(20px, 29px, 500, #21243D);
+}
+
+.caption {
+    @include textStyles(44px, 60px, 700, #21243D);
+}
+
+.sub_caption {
+    @include textStyles(30px, 44px, 700, #21243D);
+}
+
+.text18 {
+    @include textStyles(18px, 26px, 400, #21243D);
+}
+
+.text16 {
+    @include textStyles(16px, 24px, 400, #21243D);
+}
+
+.caption_box {
+    @include textStyles(22px, 45px, 400, #21243D);
+}
+
+
+// main caption styles 
+.mainCaption { 
+    // font size, line height, font weight, color  
+    @include textStyles(3rem, 3.6rem, 700, $mainColor); 
+} 
+ 
+.caption{ 
+    @include textStyles(2.6rem, 3rem, 700, $mainColor); 
+} 
+// sub caption styles 
+.subCaption { 
+    // font size, line height, font weight, color  
+    @include textStyles(2rem, 2.6rem, 700, $textColor); 
+} 
+ 
+// description styles 
+.text { 
+    // font size, line height, font weight, color  
+    @include textStyles(1.6rem, 2.2rem, 500, $textColor); 
+} 
+ 
+// button styles  
+.button { 
+    // padding top bottom, padding left right, background-color, color, border-radius, borderSize, borderStyle, borderColor 
+    @include button(10px, 30px, $buttonColor, white, 3px, 2px, solid, $buttonColor); 
+    cursor: pointer; 
+    transition: $transition; 
+    &:hover { 
+        transition: $transition; 
+        @include button(10px, 30px, transparent, $buttonColor, 3px, 2px, solid, $buttonColor); 
+    } 
+    &:focus{ 
+        outline: none; 
+    } 
+} 
+ 
+ 
+.button-empty{ 
+    // padding top bottom, padding left right, background-color, color, border-radius, borderSize, borderStyle, borderColor 
+    @include button(10px, 16px, transparent, $mainColor, 12px, 2px, solid, $buttonColor); 
+    cursor: pointer; 
+    transition: $transition; 
+    &:hover { 
+        transition: $transition; 
+        @include button(10px, 16px, $mainColor, white, 12px, 2px, solid, $mainColor); 
+    } 
+    &:focus{ 
+        outline: none; 
+    } 
+} 
+ 
+.container{ 
+    max-width: ($container + px); 
+    padding: 0 ($paddingContainer / 2 + px); 
+    width: 100%; 
+    min-height: 100%; 
+    margin: 0 auto; 
+}

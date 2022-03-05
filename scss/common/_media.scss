@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+    .menu .menu__inner {
+        justify-content: center;
+    }
+    .main .main-name {
+        text-align: center;
+        margin:  0 auto;
+    }
+    .main .my_photo {
+        margin: 0 auto;
+    }
+    .main .main-name .caption {
+        margin: 2rem 0;
+    }
+    .works .stores .clothings .web-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .menu .menu__inner {
+        justify-content: center;
+    }
+    .main .main-name {
+        text-align: center;
+        margin:  0 auto;
+    }
+    .main .my_photo {
+        margin: 0 auto;
+    }
+    .main .main-name .caption {
+        margin: 2rem 0;
+    }
+    .works .stores .clothings .web-img img {
+        width: 100%;
+        height: auto;
+    }
+} 
+
+@media only screen and (min-width: 768px) {
+    .works .stores .clothings .web-img img {
+        width: 246px;
+        height: 180px;
+    }
+    .menu .menu__inner {
+        justify-content: end;
+    }
+    .main .main-name {
+        text-align: start;
+        margin:  0;
+    }
+    .main .my_photo {
+        margin: 0;
+    }
+    .main .main-name .caption {
+        margin: 5rem 0;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+
+} 
+
+@media only screen and (min-width: 1200px) {
+
+}

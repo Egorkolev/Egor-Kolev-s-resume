@@ -1,0 +1,22 @@
+.footer {
+    margin: 2rem 0;
+    .social {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        list-style: none;
+        & li {
+            transition: $transition;
+            &:hover {
+                transform: scale(1.1);
+                transition: $transition;
+            }
+            & a {
+                & img {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+}

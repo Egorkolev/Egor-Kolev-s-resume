@@ -1,0 +1,49 @@
+.works {
+    padding: 2rem 0;
+    background-color: #EDF7FA;
+    .stores {
+        .clothings {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+            gap: 2rem;
+            .web-img {
+                & img {
+                    width: 246px;
+                    height: 180px;
+                    transition: $transition;
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: $transition;
+                    }
+                }
+            }
+            .description {
+                .description-name {
+                    display: flex;
+                    gap: 1rem;
+                    margin: 1rem 0;
+                    align-items: center;
+                    .year {
+                        background-color: $darcBlue;
+                        color: white;
+                        font-size: 18px;
+                        line-height: 26px;
+                        border-radius: 10px;
+                        padding: 2px 10px;
+                    }
+                    .text18 {
+                        color: lightgray;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.string {
+    border: 2px solid;
+    color: white;
+}

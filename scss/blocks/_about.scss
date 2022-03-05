@@ -1,0 +1,12 @@
+.about {
+    background-color: #EDF7FA;
+    padding: 2rem 0;
+    .container {
+        & p {
+            margin: 1rem 0;
+            & a {
+                color: $buttonColor;
+            }
+        }
+    }
+}

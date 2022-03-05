@@ -1,0 +1,28 @@
+.main {
+    padding: 10rem 0 6rem 0;
+    .container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        align-items: center; 
+        gap: 2rem;
+    }
+    .main-name {
+        gap: 2rem;
+        .caption {
+            max-width: 26rem;
+            margin: 5rem 0;
+            & span {
+                color: $buttonColor;
+            }
+        }
+        .button {
+            margin: 1rem 0;
+        }
+    }
+    .my_photo {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+    }
+}
