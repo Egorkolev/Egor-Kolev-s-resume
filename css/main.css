@@ -363,6 +363,7 @@ main {
 
 .skills .skills-item {
   list-style: disc;
+  margin-left: 1rem;
 }
 
 .works {
